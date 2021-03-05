@@ -1,0 +1,111 @@
+.slicknav_menu
+{
+    display: none;
+}
+
+@media screen and (max-width:992px)
+{
+    #menu{
+        display: none;
+    }
+
+    .slider{
+        margin-top:112px;
+    }
+    header{
+        margin-top: -112px;
+        background: deepskyblue;
+    }
+    .slicknav_menu
+    {
+        display:inline-block;
+        position: fixed;
+        right:0;
+        margin-top: -112px;
+        z-index:1000;
+        background: transparent;
+    }
+
+    .slicknav_btn
+    {
+        background:orange;
+        margin:35px 30px 0 0;
+    }
+
+    .slicknav_nav
+    {
+        background: deepskyblue;
+        width:200px;
+    }
+
+    .slicknav_nav li
+    {
+        margin:0;
+        padding:0;
+        height: 3em;
+        line-height:3em;
+        width:200px;
+        border-bottom:1px solid #0ba9e3;
+        border-top: 1px solid #0ba9e3;
+        text-align: center;
+    }
+
+    .slicknav_nav li a
+    {
+        margin:0;
+        padding: 0;
+        font-weight: bold; 
+        transition:all 0.5s ease-in;
+    }
+
+    .slicknav_nav li a:hover
+    {
+        color: red;
+        background: transparent;
+        text-decoration: none;
+    }
+
+    @media screen and (max-width:992px)
+    {
+        .feature-mockup img
+        {
+            display:none;
+        }
+    }
+
+    @media screen and (max-width:768px)
+    {
+        .team-block
+        {
+            margin:80px 0;
+        }
+        .team-man
+        {
+            margin-top:50px;
+        }
+
+      footer .social-icon a
+      {
+          margin-bottom: 50px;
+      }
+
+      .contact-area .address-phone{
+        width:110px;
+    }
+
+    .contact-address .fas, .contact-address .far{
+        font-size: 20px;
+        margin:0 10px 10px 0;
+        width:20px;
+    }
+
+    .contact-area .divider h4{
+        font-size:16px;
+    }
+
+    .contact-block{
+        padding:5px;
+    }
+    }
+
+}
